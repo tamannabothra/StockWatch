@@ -14,11 +14,13 @@ Getting Started
 Option 1: Using Docker
 Running the app with Docker is straightforward. The Docker image is hosted on Docker Hub, and you can quickly get started with the following steps:
 
-Pull the Docker image:
+<h2> Pull the Docker image: </h2>
+
 ```
 docker pull tamannabothra/stockwatch
 ```
-Start the Docker container:
+<h2> Start the Docker container:</h2>
+
 ```
 docker run -p 5000:5000 tamannabothra/stockwatch
 ```
@@ -26,13 +28,13 @@ docker run -p 5000:5000 tamannabothra/stockwatch
 Open the app by visiting http://localhost:5000 in your browser.
 
 Option 2: Running Locally
-Clone the repository to your local machine:
+<h2> Clone the repository to your local machine: </h2>
 
 ```
 https://github.com/tamannabothra/StockWatch.git
 ```
 
-Install the necessary dependencies:
+<h2> Install the necessary dependencies: </h2>
 
 ```
 pip install -r requirements.txt
